@@ -1,0 +1,5 @@
+name: 'Arylic V1'
+packageKey: 'arylicv1.0'
+permissions:
+    lan: {}
+    discovery: {}

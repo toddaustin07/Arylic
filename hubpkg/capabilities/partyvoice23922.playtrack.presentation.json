@@ -1,0 +1,493 @@
+{
+    "dashboard": {
+        "states": [],
+        "actions": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setTrack",
+                    "alternatives": [
+                        {
+                            "key": "1",
+                            "value": "1",
+                            "type": "active"
+                        },
+                        {
+                            "key": "2",
+                            "value": "2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "3",
+                            "value": "3",
+                            "type": "active"
+                        },
+                        {
+                            "key": "4",
+                            "value": "4",
+                            "type": "active"
+                        },
+                        {
+                            "key": "5",
+                            "value": "5",
+                            "type": "active"
+                        },
+                        {
+                            "key": "6",
+                            "value": "6",
+                            "type": "active"
+                        },
+                        {
+                            "key": "7",
+                            "value": "7",
+                            "type": "active"
+                        },
+                        {
+                            "key": "8",
+                            "value": "8",
+                            "type": "active"
+                        },
+                        {
+                            "key": "9",
+                            "value": "9",
+                            "type": "active"
+                        },
+                        {
+                            "key": "10",
+                            "value": "10",
+                            "type": "active"
+                        },
+                        {
+                            "key": "11",
+                            "value": "11",
+                            "type": "active"
+                        },
+                        {
+                            "key": "12",
+                            "value": "12",
+                            "type": "active"
+                        },
+                        {
+                            "key": "13",
+                            "value": "13",
+                            "type": "active"
+                        },
+                        {
+                            "key": "14",
+                            "value": "14",
+                            "type": "active"
+                        },
+                        {
+                            "key": "15",
+                            "value": "15",
+                            "type": "active"
+                        },
+                        {
+                            "key": "16",
+                            "value": "16",
+                            "type": "active"
+                        },
+                        {
+                            "key": "17",
+                            "value": "17",
+                            "type": "active"
+                        },
+                        {
+                            "key": "18",
+                            "value": "18",
+                            "type": "active"
+                        },
+                        {
+                            "key": "19",
+                            "value": "19",
+                            "type": "active"
+                        },
+                        {
+                            "key": "20",
+                            "value": "20",
+                            "type": "active"
+                        },
+                        {
+                            "key": "21",
+                            "value": "21",
+                            "type": "active"
+                        },
+                        {
+                            "key": "22",
+                            "value": "22",
+                            "type": "active"
+                        },
+                        {
+                            "key": "23",
+                            "value": "23",
+                            "type": "active"
+                        },
+                        {
+                            "key": "24",
+                            "value": "24",
+                            "type": "active"
+                        },
+                        {
+                            "key": "25",
+                            "value": "25",
+                            "type": "active"
+                        },
+                        {
+                            "key": "26",
+                            "value": "26",
+                            "type": "active"
+                        },
+                        {
+                            "key": "27",
+                            "value": "27",
+                            "type": "active"
+                        },
+                        {
+                            "key": "28",
+                            "value": "28",
+                            "type": "active"
+                        },
+                        {
+                            "key": "29",
+                            "value": "29",
+                            "type": "active"
+                        },
+                        {
+                            "key": "30",
+                            "value": "30",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "string"
+                },
+                "state": {
+                    "value": "track.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "1",
+                            "value": "1",
+                            "type": "active"
+                        },
+                        {
+                            "key": "2",
+                            "value": "2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "3",
+                            "value": "3",
+                            "type": "active"
+                        },
+                        {
+                            "key": "4",
+                            "value": "4",
+                            "type": "active"
+                        },
+                        {
+                            "key": "5",
+                            "value": "5",
+                            "type": "active"
+                        },
+                        {
+                            "key": "6",
+                            "value": "6",
+                            "type": "active"
+                        },
+                        {
+                            "key": "7",
+                            "value": "7",
+                            "type": "active"
+                        },
+                        {
+                            "key": "8",
+                            "value": "8",
+                            "type": "active"
+                        },
+                        {
+                            "key": "9",
+                            "value": "9",
+                            "type": "active"
+                        },
+                        {
+                            "key": "10",
+                            "value": "10",
+                            "type": "active"
+                        },
+                        {
+                            "key": "11",
+                            "value": "11",
+                            "type": "active"
+                        },
+                        {
+                            "key": "12",
+                            "value": "12",
+                            "type": "active"
+                        },
+                        {
+                            "key": "13",
+                            "value": "13",
+                            "type": "active"
+                        },
+                        {
+                            "key": "14",
+                            "value": "14",
+                            "type": "active"
+                        },
+                        {
+                            "key": "15",
+                            "value": "15",
+                            "type": "active"
+                        },
+                        {
+                            "key": "16",
+                            "value": "16",
+                            "type": "active"
+                        },
+                        {
+                            "key": "17",
+                            "value": "17",
+                            "type": "active"
+                        },
+                        {
+                            "key": "18",
+                            "value": "18",
+                            "type": "active"
+                        },
+                        {
+                            "key": "19",
+                            "value": "19",
+                            "type": "active"
+                        },
+                        {
+                            "key": "20",
+                            "value": "20",
+                            "type": "active"
+                        },
+                        {
+                            "key": "21",
+                            "value": "21",
+                            "type": "active"
+                        },
+                        {
+                            "key": "22",
+                            "value": "22",
+                            "type": "active"
+                        },
+                        {
+                            "key": "23",
+                            "value": "23",
+                            "type": "active"
+                        },
+                        {
+                            "key": "24",
+                            "value": "24",
+                            "type": "active"
+                        },
+                        {
+                            "key": "25",
+                            "value": "25",
+                            "type": "active"
+                        },
+                        {
+                            "key": "26",
+                            "value": "26",
+                            "type": "active"
+                        },
+                        {
+                            "key": "27",
+                            "value": "27",
+                            "type": "active"
+                        },
+                        {
+                            "key": "28",
+                            "value": "28",
+                            "type": "active"
+                        },
+                        {
+                            "key": "29",
+                            "value": "29",
+                            "type": "active"
+                        },
+                        {
+                            "key": "30",
+                            "value": "30",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "Play Track",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "1",
+                            "value": "1",
+                            "type": "active"
+                        },
+                        {
+                            "key": "2",
+                            "value": "2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "3",
+                            "value": "3",
+                            "type": "active"
+                        },
+                        {
+                            "key": "4",
+                            "value": "4",
+                            "type": "active"
+                        },
+                        {
+                            "key": "5",
+                            "value": "5",
+                            "type": "active"
+                        },
+                        {
+                            "key": "6",
+                            "value": "6",
+                            "type": "active"
+                        },
+                        {
+                            "key": "7",
+                            "value": "7",
+                            "type": "active"
+                        },
+                        {
+                            "key": "8",
+                            "value": "8",
+                            "type": "active"
+                        },
+                        {
+                            "key": "9",
+                            "value": "9",
+                            "type": "active"
+                        },
+                        {
+                            "key": "10",
+                            "value": "10",
+                            "type": "active"
+                        },
+                        {
+                            "key": "11",
+                            "value": "11",
+                            "type": "active"
+                        },
+                        {
+                            "key": "12",
+                            "value": "12",
+                            "type": "active"
+                        },
+                        {
+                            "key": "13",
+                            "value": "13",
+                            "type": "active"
+                        },
+                        {
+                            "key": "14",
+                            "value": "14",
+                            "type": "active"
+                        },
+                        {
+                            "key": "15",
+                            "value": "15",
+                            "type": "active"
+                        },
+                        {
+                            "key": "16",
+                            "value": "16",
+                            "type": "active"
+                        },
+                        {
+                            "key": "17",
+                            "value": "17",
+                            "type": "active"
+                        },
+                        {
+                            "key": "18",
+                            "value": "18",
+                            "type": "active"
+                        },
+                        {
+                            "key": "19",
+                            "value": "19",
+                            "type": "active"
+                        },
+                        {
+                            "key": "20",
+                            "value": "20",
+                            "type": "active"
+                        },
+                        {
+                            "key": "21",
+                            "value": "21",
+                            "type": "active"
+                        },
+                        {
+                            "key": "22",
+                            "value": "22",
+                            "type": "active"
+                        },
+                        {
+                            "key": "23",
+                            "value": "23",
+                            "type": "active"
+                        },
+                        {
+                            "key": "24",
+                            "value": "24",
+                            "type": "active"
+                        },
+                        {
+                            "key": "25",
+                            "value": "25",
+                            "type": "active"
+                        },
+                        {
+                            "key": "26",
+                            "value": "26",
+                            "type": "active"
+                        },
+                        {
+                            "key": "27",
+                            "value": "27",
+                            "type": "active"
+                        },
+                        {
+                            "key": "28",
+                            "value": "28",
+                            "type": "active"
+                        },
+                        {
+                            "key": "29",
+                            "value": "29",
+                            "type": "active"
+                        },
+                        {
+                            "key": "30",
+                            "value": "30",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setTrack",
+                    "argumentType": "string"
+                }
+            }
+        ]
+    },
+    "id": "partyvoice23922.playtrack",
+    "version": 1
+}

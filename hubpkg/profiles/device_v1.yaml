@@ -1,0 +1,62 @@
+name: arylicdevice.v1
+components:
+  - id: main
+    label: Controls
+    capabilities:
+      - id: mediaPlayback
+        version: 1
+      - id: partyvoice23922.inputsource
+        version: 1
+      - id: partyvoice23922.playpreset
+        version: 1
+      - id: partyvoice23922.playtrack
+        version: 1
+      - id: mediaTrackControl
+        version: 1
+      - id: audioVolume
+        version: 1
+      - id: audioMute
+        version: 1
+      - id: refresh
+        version: 1
+    categories:
+      - name: NetworkAudio
+  - id: status
+    label: Status
+    capabilities:
+      - id: partyvoice23922.status
+        version: 1
+      - id: partyvoice23922.mediatitle
+        version: 1
+metadata:
+  ocfDeviceType: oic.d.networkaudio
+preferences:
+  - title: "Response Timeout"
+    name: timeout
+    description: "Number of seconds"
+    required: true
+    preferenceType: number
+    definition:
+      minimum: 1
+      maximum: 60
+      default: 3
+  - title: "Device IP Address"
+    name: ipaddr
+    description: "example: 192.168.1.50"
+    required: true
+    preferenceType: string
+    definition:
+      stringType: text
+      minLength: 7
+      maxLength: 15
+      default: "192.168.1.n"
+  - title: "Refresh Frequency"
+    name: refreshfreq
+    description: "Number of seconds"
+    required: true
+    preferenceType: number
+    definition:
+      minimum: 1
+      maximum: 86400
+      default: 30
+

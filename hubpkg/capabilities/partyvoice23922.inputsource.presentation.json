@@ -1,0 +1,163 @@
+{
+    "dashboard": {
+        "states": [],
+        "actions": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setSource",
+                    "alternatives": [
+                        {
+                            "key": "Wifi",
+                            "value": "Wifi",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Line-in",
+                            "value": "Line-in",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Bluetooth",
+                            "value": "Bluetooth",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Optical",
+                            "value": "Optical",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Co-axial",
+                            "value": "Co-axial",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Line-in2",
+                            "value": "Line-in2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "UDisk",
+                            "value": "UDisk",
+                            "type": "active"
+                        },
+                        {
+                            "key": "PCUSB",
+                            "value": "PCUSB",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "string"
+                },
+                "state": {
+                    "value": "source.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "Wifi",
+                            "value": "Wifi",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Line-in",
+                            "value": "Line-in",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Bluetooth",
+                            "value": "Bluetooth",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Optical",
+                            "value": "Optical",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Co-axial",
+                            "value": "Co-axial",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Line-in2",
+                            "value": "Line-in2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "UDisk",
+                            "value": "UDisk",
+                            "type": "active"
+                        },
+                        {
+                            "key": "PCUSB",
+                            "value": "PCUSB",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "Input Source",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "Wifi",
+                            "value": "Wifi",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Line-in",
+                            "value": "Line-in",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Bluetooth",
+                            "value": "Bluetooth",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Optical",
+                            "value": "Optical",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Co-axial",
+                            "value": "Co-axial",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Line-in2",
+                            "value": "Line-in2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "UDisk",
+                            "value": "UDisk",
+                            "type": "active"
+                        },
+                        {
+                            "key": "PCUSB",
+                            "value": "PCUSB",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setSource",
+                    "argumentType": "string"
+                }
+            }
+        ]
+    },
+    "id": "partyvoice23922.inputsource",
+    "version": 1
+}

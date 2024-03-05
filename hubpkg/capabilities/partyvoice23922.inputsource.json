@@ -1,0 +1,41 @@
+{
+    "id": "partyvoice23922.inputsource",
+    "version": 1,
+    "status": "proposed",
+    "name": "inputsource",
+    "ephemeral": false,
+    "attributes": {
+        "source": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "maxLength": 20
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setSource",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setSource": {
+            "name": "setSource",
+            "arguments": [
+                {
+                    "name": "value",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "maxLength": 20
+                    }
+                }
+            ]
+        }
+    }
+}

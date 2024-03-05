@@ -1,0 +1,41 @@
+{
+    "id": "partyvoice23922.playtrack",
+    "version": 1,
+    "status": "proposed",
+    "name": "playtrack",
+    "ephemeral": false,
+    "attributes": {
+        "track": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "maxLength": 2
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setTrack",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setTrack": {
+            "name": "setTrack",
+            "arguments": [
+                {
+                    "name": "value",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "maxLength": 2
+                    }
+                }
+            ]
+        }
+    }
+}

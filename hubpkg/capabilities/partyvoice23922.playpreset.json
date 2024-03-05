@@ -1,0 +1,41 @@
+{
+    "id": "partyvoice23922.playpreset",
+    "version": 1,
+    "status": "proposed",
+    "name": "playpreset",
+    "ephemeral": false,
+    "attributes": {
+        "preset": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "maxLength": 2
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setPreset",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setPreset": {
+            "name": "setPreset",
+            "arguments": [
+                {
+                    "name": "value",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "maxLength": 2
+                    }
+                }
+            ]
+        }
+    }
+}
